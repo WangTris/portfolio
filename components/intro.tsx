@@ -23,8 +23,8 @@ const Intro = () => {
             <Image
               src="/avatar1.jpeg"
               alt="avatar"
-              width="192"
-              height="192"
+              width="300"
+              height="300"
               quality="95"
               priority={true}
               className="h-24 w-24 rounded-full border-[0.35rem] border-white object-cover shadow-xl"
@@ -50,11 +50,10 @@ const Intro = () => {
           initial={{ opacity: 0, y: 100 }}
           animate={{ opacity: 1, y: 0 }}
         >
-          <span className="font-bold">Hello, I&apos;m Ricardo.</span> I&apos;m a{" "}
-          <span className="font-bold">full-stack developer</span> with{" "}
-          <span className="font-bold">8 years</span> of experience. I enjoy
-          building <span className="italic">sites & apps</span>. My focus is{" "}
-          <span className="underline">React (Next.js)</span>.
+          <span className="font-bold">Hello, I&apos;m Tran Quang Tri. </span>
+          I&apos;ve created this platform to showcase my work and share my
+          journey as I continue to grow and learn in my field of study -
+          <span className="font-bold"> Information Technology</span>.
         </motion.p>
 
         <motion.div
@@ -91,7 +90,7 @@ const Intro = () => {
           <a
             href="https://github.com/WangTris"
             target="_blank"
-            className="flex cursor-pointer items-center gap-2 rounded-full bg-white p-4 py-3.5 text-xl text-gray-950 shadow-lg outline-none transition hover:scale-110 focus:scale-110 active:scale-105"
+            className="flex cursor-pointer items-center gap-2 rounded-full bg-white p-4 py-3.5 text-2xl text-gray-950 shadow-lg outline-none transition hover:scale-110 focus:scale-110 active:scale-105"
           >
             <FaGithub />
           </a>
