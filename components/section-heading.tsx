@@ -5,7 +5,11 @@ type SectionHeadingProps = {
 };
 
 const SectionHeading = ({ children }: SectionHeadingProps) => {
-  return <h1 className="mb-8 text-3xl font-medium capitalize">{children}</h1>;
+  return (
+    <h1 className="mb-8 text-center text-3xl font-medium capitalize">
+      {children}
+    </h1>
+  );
 };
 
 export default SectionHeading;
