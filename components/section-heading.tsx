@@ -4,12 +4,10 @@ type SectionHeadingProps = {
   children: React.ReactNode;
 };
 
-const SectionHeading = ({ children }: SectionHeadingProps) => {
+export default function SectionHeading({ children }: SectionHeadingProps) {
   return (
-    <h1 className="mb-8 text-center text-3xl font-medium capitalize">
+    <h2 className="text-3xl font-medium capitalize mb-8 text-center">
       {children}
-    </h1>
+    </h2>
   );
-};
-
-export default SectionHeading;
+}
