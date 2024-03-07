@@ -15,7 +15,7 @@ export default function Contact() {
     <motion.section
       id="contact"
       ref={ref}
-      className="mb-20 sm:mb-28 w-[min(100%,38rem)] text-center"
+      className="mb-20 w-[min(100%,38rem)] text-center sm:mb-28"
       initial={{
         opacity: 0,
       }}
@@ -31,7 +31,7 @@ export default function Contact() {
     >
       <SectionHeading>Contact me</SectionHeading>
 
-      <p className="text-gray-700 -mt-6 dark:text-white/80">
+      <p className="-mt-6 text-gray-700 dark:text-white/80">
         Please contact me directly at{" "}
         <a className="underline" href="mailto:example@gmail.com">
           example@gmail.com
@@ -53,7 +53,7 @@ export default function Contact() {
         }}
       >
         <input
-          className="h-14 px-4 rounded-lg borderBlack dark:bg-white dark:bg-opacity-80 dark:focus:bg-opacity-100 transition-all dark:outline-none"
+          className="borderBlack h-14 rounded-lg px-4 transition-all dark:bg-white dark:bg-opacity-80 dark:outline-none dark:focus:bg-opacity-100"
           name="senderEmail"
           type="email"
           required
@@ -61,7 +61,7 @@ export default function Contact() {
           placeholder="Your email"
         />
         <textarea
-          className="h-52 my-3 rounded-lg borderBlack p-4 dark:bg-white dark:bg-opacity-80 dark:focus:bg-opacity-100 transition-all dark:outline-none"
+          className="borderBlack relative my-3 h-52 resize-none overflow-hidden rounded-lg p-4 align-top transition-all dark:bg-white dark:bg-opacity-80 dark:outline-none dark:focus:bg-opacity-100"
           name="message"
           placeholder="Your message"
           required
@@ -69,7 +69,8 @@ export default function Contact() {
           data-gramm="false"
           data-gramm_editor="false"
           data-enable-grammarly="false"
-
+          data-grammarly-shadow-root="false"
+          quillbot-extension-root="false"
         />
         <SubmitBtn />
       </form>

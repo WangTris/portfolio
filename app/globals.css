@@ -13,3 +13,18 @@ html.dark {
 .borderBlack {
   @apply border border-black/10;
 }
+
+quillbot-extension {
+  display: none !important;
+  overflow: hidden !important;
+  visibility: none !important;
+  opacity: none !important;
+  clip-path: none !important;
+  pointer-events: none !important;
+  left: none !important;
+  right: none !important;
+  position: none !important;
+  bottom: none !important;
+  top: none !important;
+  z-index: 0;
+}

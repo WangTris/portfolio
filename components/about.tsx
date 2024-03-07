@@ -11,7 +11,7 @@ export default function About() {
   return (
     <motion.section
       ref={ref}
-      className="mb-28 max-w-[45rem] text-center leading-8 sm:mb-40 scroll-mt-28"
+      className="mb-28 max-w-[50rem] scroll-mt-28 text-center leading-8 sm:mb-40"
       initial={{ opacity: 0, y: 100 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ delay: 0.175 }}
@@ -19,30 +19,29 @@ export default function About() {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
-        After graduating with a degree in{" "}
-        <span className="font-medium">Accounting</span>, I decided to pursue my
-        passion for programming. I enrolled in a coding bootcamp and learned{" "}
-        <span className="font-medium">full-stack web development</span>.{" "}
+        Currently, I'm a last-year student in{" "}
+        <span className="font-medium">International University</span>, I've
+        created this platform to showcase my work and share my journey as I
+        continue to grow and learn in my field of study -{" "}
+        <span className="font-medium">Information Technology</span>.{" "}
         <span className="italic">My favorite part of programming</span> is the
-        problem-solving aspect. I <span className="underline">love</span> the
-        feeling of finally figuring out a solution to a problem. My core stack
-        is{" "}
+        problem-solving aspect. I love the feeling of finally figuring out a
+        solution to a problem. My core stack is{" "}
         <span className="font-medium">
-          React, Next.js, Node.js, and MongoDB
+          NextJS, ReactJS, NodeJS, and MongoDB
         </span>
-        . I am also familiar with TypeScript and Prisma. I am always looking to
-        learn new technologies. I am currently looking for a{" "}
-        <span className="font-medium">full-time position</span> as a software
-        developer.
+        . I am also familiar with TypeScript and Figma. I am committed to
+        continuous learning and the exploration of emerging technologies. I am
+        also looking <span className="font-medium">full-time position</span> as
+        a software developer.
       </p>
 
       <p>
-        <span className="italic">When I'm not coding</span>, I enjoy playing
-        video games, watching movies, and playing with my dog. I also enjoy{" "}
+        <span className="italic">When I'm not coding</span>, I enjoy watching
+        movies esspecially JDrama, and reading detective books. I also enjoy{" "}
         <span className="font-medium">learning new things</span>. I am currently
-        learning about{" "}
-        <span className="font-medium">history and philosophy</span>. I'm also
-        learning how to play the guitar.
+        learning about <span className="font-medium">Google Cybersecurity</span>
+        .
       </p>
     </motion.section>
   );
