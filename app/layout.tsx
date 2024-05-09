@@ -21,6 +21,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className="!scroll-smooth">
+      <head>
+        {/* Logo */}
+        <link rel="icon" href="/logo.svg" type="image/svg+xml" />
+      </head>
       <body
         suppressHydrationWarning={true}
         className={`${inter.className} relative bg-gray-50 pt-28 text-gray-950 dark:bg-gray-900 dark:text-gray-50 dark:text-opacity-90 sm:pt-36`}
